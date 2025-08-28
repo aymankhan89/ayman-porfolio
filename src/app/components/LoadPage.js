@@ -6,18 +6,22 @@ export default class LoadPage {
     this.loadPagePhrase = document.querySelector('.loadpage__phrase')
 
     this.phrases = [
-      'Diseñando desde 2011.',
-      'Diseño y desarrollo Web.',
-      'Vivo en Quito, Ecuador.',
-      'Me gusta vanilla javascript.',
-      'Experiencias con ThreeJS.',
-      'Desarrollo de landing pages.',
-      'Disfruto del buen cine.',
-      'Freelancer disponible.',
-      'Desarrollo frontend.',
-      'Desarrollo creativo.',
-      'Landings para agencias digitales.',
-      'Maquetación Pixel perfect.'
+      'Designing since 2016.',
+      'UI/UX Design & Research.',
+      'Based in Dubai, UAE.',
+      'Passionate about Figma.',
+      'Creating design systems.',
+      'Mobile app experiences.',
+      'User-centered design.',
+      'Available for projects.',
+      'Product design specialist.',
+      'Design thinking advocate.',
+      'Crafting digital experiences.',
+      'Pixel-perfect interfaces.',
+      'Prototyping with Principle.',
+      'Accessibility-focused design.',
+      'Design system architect.',
+      'User research enthusiast.'
     ]
 
     this.createPhrase()

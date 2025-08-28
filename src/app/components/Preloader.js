@@ -65,7 +65,7 @@ export default class Preloader extends EventEmitter {
       this.preloaderTextElement.innerHTML = Math.round(progressRatio * 100)
       this.preloaderInfoElement.innerHTML = `${Math.round(
         progressRatio * 8
-      )} años de experiencia`
+      )} years of experience`
     }
 
     this.loadingManager.onLoad = () => {
