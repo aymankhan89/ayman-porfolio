@@ -14,7 +14,14 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{ from: path.resolve(__dirname, '../src/static') }]
+      patterns: [
+        { 
+          from: path.resolve(__dirname, '../src/static'),
+          // Add cache invalidation for copied files
+          force: true,
+          noErrorOnMissing: true
+        }
+      ]
     }),
     new HtmlWebpackPlugin({
       inject: true,
@@ -47,14 +54,14 @@ module.exports = {
         test: /\.(jpg|png|gif|svg|ico)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/images/[name].[hash][ext]'
+          filename: 'assets/images/[name].[contenthash][ext]' // Use contenthash instead of hash
         }
       },
       {
         test: /\.(ttf|eot|woff|woff2)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/fonts/[name].[hash][ext]'
+          filename: 'assets/fonts/[name].[contenthash][ext]'
         }
       },
       {

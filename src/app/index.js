@@ -1,5 +1,4 @@
 import Router from '../routing/Router'
-
 import NormalizeWheel from 'normalize-wheel'
 import each from 'lodash/each'
 
@@ -55,10 +54,10 @@ class App {
       '/': {
         action: () => this.createContent({ template: 'home' })
       },
-      '/acerca-de-mi': {
+      '/about': {
         action: () => this.createContent({ template: 'about' })
       },
-      '/caso/:id': {
+      '/case/:id': {
         action: () => this.createContent({ template: 'case' })
       }
     }

@@ -1,5 +1,7 @@
 import abstractImg from '../../assets/images/home/abstract-figure.svg'
-import portraitImg from '../../assets/images/home/mustafa.jpg'
+// import portraitImg from '../../assets/images/home/mustafa.jpg'
+import mustafa from '../../assets/images/home/mustafa.jpg'
+
 import starImg from '../../assets/images/home/star-figure.svg'
 import project1Img from '../../assets/images/home/project1-cscreativedev.jpg'
 import project2Img from '../../assets/images/home/project2-cscreativedev.jpg'
@@ -13,7 +15,6 @@ export default class HomeView {
   getData() {
     this.createContent()
   }
-
   createContent() {
     this.html = `
     <div class="home">
@@ -77,7 +78,7 @@ export default class HomeView {
                     <img
                       class="section__bio__image three__image"
                       alt="Mustafa"
-                      src="${portraitImg}"
+                      src="${mustafa}"
                       data-webgl="image"
                     />
                   </figure>
@@ -228,10 +229,7 @@ export default class HomeView {
                   <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
                 </li>
                 <li class="footer__network">
-                  <a class="word__link" href="https://www.instagram.com/mustafa_ux/" target="_blank">Instagram</a>
-                </li>
-                <li class="footer__network">
-                  <a class="word__link" href="mailto:mustafa.designer@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
                 </li>
               </ul>
               <div class="footer__copy">©2025</div>

@@ -1,6 +1,8 @@
 import abstractImg from '../../assets/images/home/abstract-figure.svg'
-import portraitVerImg from '../../assets/images/about/cristian-saenz-portrait-lost.jpg'
-import portraitHorImg from '../../assets/images/about/cristian-saenz-portrait-hor.jpg'
+// import portraitVerImg from '../../assets/images/about/cristian-saenz-portrait-lost.jpg'
+// import portraitHorImg from '../../assets/images/about/cristian-saenz-portrait-hor.jpg'
+import portraitVerImg from '../../assets/images/about/mustafa.jpg'
+import portraitHorImg from '../../assets/images/about/mustafa.jpg'
 
 export default class AboutView {
   constructor() {
@@ -225,14 +227,9 @@ export default class AboutView {
                 <li class="footer__network">
                   <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
                 </li>
+                
                 <li class="footer__network">
-                  <a class="word__link" href="https://www.instagram.com/mustafa_ux/" target="_blank">Instagram</a>
-                </li>
-                <li class="footer__network">
-                  <a class="word__link" href="https://www.behance.net/mustafa" target="_blank">Behance</a>
-                </li>
-                <li class="footer__network">
-                  <a class="word__link" href="mailto:mustafa.designer@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
                 </li>
               </ul>
               <div class="footer__copy">©2025</div>

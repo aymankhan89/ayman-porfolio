@@ -25,12 +25,14 @@ export default class Preloader extends EventEmitter {
 
   createTextures() {
     const texturesRutes = [
-      require('../../assets/images/home/cristian-saenz-portrait.jpg'),
+      require('../../assets/images/home/mustafa.jpg'),
+      // require('../../assets/images/home/cristian-saenz-portrait.jpg'),
       require('../../assets/images/home/project1-cscreativedev.jpg'),
       require('../../assets/images/home/project2-cscreativedev.jpg'),
       require('../../assets/images/home/project3-cscreativedev.jpg'),
-      require('../../assets/images/about/cristian-saenz-portrait-lost.jpg'),
+      // require('../../assets/images/about/cristian-saenz-portrait-lost.jpg'),
       require('../../assets/images/about/cristian-saenz-portrait-hor.jpg'),
+      require('../../assets/images/about/mustafa.jpg'),
       require('../../assets/images/cases/ecuatraveling/ecuatraveling-1.jpg'),
       require('../../assets/images/cases/ecuatraveling/ecuatraveling-2.jpg'),
       require('../../assets/images/cases/ecuatraveling/ecuatraveling-3.jpg'),

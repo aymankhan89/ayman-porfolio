@@ -1,12 +1,14 @@
 {
-  "name": "portfoliocs",
+  "name": "mustafa-portfolio",
   "version": "1.0.0",
-  "description": "Portfolio personal de Cristian Sáenz",
+  "description": "Personal Portfolio of Mustafa - UI/UX Designer",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "dev:fresh": "rm -rf node_modules/.cache && npm run dev",
+    "clear-cache": "rm -rf node_modules/.cache && rm -rf dist"
   },
-  "author": "Cristian Saenz",
+  "author": "Mustafa",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.17.9",
