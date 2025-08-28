@@ -42,12 +42,9 @@ export default class HomeView {
                   <li class="header__network">
                     <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
                   </li>
-                  <li class="header__network">
-                    <a class="word__link" href="https://www.instagram.com/mustafa_ux/" target="_blank">Instagram</a>
-                  </li>
                 </ul>
                 <div class="header__mail">
-                  <a class="word__link" href="mailto:mustafa.designer@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
                 </div>
               </div>
             </div>

@@ -31,7 +31,7 @@ export default class CaseView {
     const path = location.pathname
     const pathSplit = path.split('/')
 
-    this.id = pathSplit[2]
+    this.id = pathSplit[2] // Gets the case ID from /case/ecommerce-app
   }
 
   getData() {
@@ -65,7 +65,7 @@ export default class CaseView {
                         </p>
                         <div class="case__left__items">
                           <div class="case__left__item">
-                            <div class="case__left__item__title title__inner">Año</div>
+                            <div class="case__left__item__title title__inner">Year</div>
                             <div class="case__left__item__text">
                               <span class="title__inner">${
                                 this.content.year
@@ -73,18 +73,18 @@ export default class CaseView {
                             </div>
                           </div>
                           <div class="case__left__item">
-                            <div class="case__left__item__title title__inner">Rol</div>
+                            <div class="case__left__item__title title__inner">Role</div>
                             <div class="case__left__item__text">
                               ${this.content.roles
                                 .map(
-                                  (rol) =>
-                                    `<span class="title__inner">${rol}</span>`
+                                  (role) =>
+                                    `<span class="title__inner">${role}</span>`
                                 )
                                 .join('')}
                             </div>
                           </div>
                           <div class="case__left__item">
-                            <div class="case__left__item__title title__inner">Tecnologías</div>
+                            <div class="case__left__item__title title__inner">Tools</div>
                             <div class="case__left__item__text">
                               ${this.content.techs
                                 .map(
@@ -99,14 +99,14 @@ export default class CaseView {
                       <figure class="case__left__abstract__media">
                         <img
                           class="case__left__abstract__image object__rotate__inverse"
-                          alt="CS Creative Webs"
+                          alt="Mustafa Design Studio"
                           src="${starImg}"
                         />
                       </figure>
                       ${
                         this.content.visit
                           ? `<a class="case__left__link word__link" target="_blank" href="${this.content.visit}">
-                        Visitar el sitio ->
+                        Visit the site ->
                       </a>`
                           : ''
                       }
@@ -133,12 +133,12 @@ export default class CaseView {
               </section>
               <section class="case__next__section">
                 <div class="case__next__section__wrapper">
-                  <a class="next__section__link nav__link" href="/caso/${this.getLink(
+                  <a class="next__section__link nav__link" href="/case/${this.getLink(
                     this.content.id
                   )}">
                     <div class="next__section__link__line"></div>
                     <div class="next__section__link__info">
-                      <div class="next__section__link__text">Siguiente caso</div>
+                      <div class="next__section__link__text">Next case</div>
                       <div class="next__section__link__case">${this.getLink(
                         this.content.id
                       )}</div>
@@ -155,7 +155,7 @@ export default class CaseView {
                   <figure class="footer__contact__logo__media">
                     <img
                       class="footer__contact__logo__image object__rotate"
-                      alt="CS Creative Webs"
+                      alt="Mustafa Design Studio"
                       src="${abstractImg}"
                     />
                   </figure>
@@ -163,34 +163,28 @@ export default class CaseView {
                 <div class="footer__contact__advice">
                   <h2 class="footer__contact__text">
                     <div class="footer__advice__line title__inner">
-                      ¿Tienes_un
+                      Have_a
                     </div>
-                    <div class="footer__advice__line title__inner">proyecto</div>
-                    <div class="footer__advice__line title__inner">en_mente?</div>
+                    <div class="footer__advice__line title__inner">project</div>
+                    <div class="footer__advice__line title__inner">in_mind?</div>
                   </h2>
                   <a
                     class="footer__contact__label word__link title__inner"
-                    href="mailto:cristianmsaenza@gmail.com"
-                    >Contáctame</a
+                    href="mailto:mustafa.designer@gmail.com"
+                    >Contact_me</a
                   >
                 </div>
               </div>
               <div class="footer__about__contact__networks">
                 <ul class="footer__contact__items">
                   <li class="footer__network">
-                    <a class="word__link" href="https://www.linkedin.com/in/cristian-s%C3%A1enz-3b889b3b/" target="_blank">Linkedin</a>
+                    <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
                   </li>
                   <li class="footer__network">
-                    <a class="word__link" href="https://www.instagram.com/cscreativedev/" target="_blank">Instagram</a>
-                  </li>
-                  <li class="footer__network">
-                    <a class="word__link" href="https://www.facebook.com/cscreativedev" target="_blank">Facebook</a>
-                  </li>
-                  <li class="footer__network">
-                    <a class="word__link" href="mailto:cristianmsaenza@gmail.com">Email</a>
+                    <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
                   </li>
                 </ul>
-                <div class="footer__copy">©2023</div>
+                <div class="footer__copy">©2025</div>
               </div>
             </div>
           </footer>

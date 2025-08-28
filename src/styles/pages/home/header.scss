@@ -36,7 +36,7 @@
     }
 
     .header__title__web{
-      font-size: 26rem;
+      font-size: 22rem;
       font-weight: 300;
       text-transform: uppercase;
 
@@ -73,7 +73,7 @@
   position: absolute;
   right: 0;
   text-transform: uppercase;
-  top: 34rem;
+  top: 24rem;
 
   @include media('<tablet'){
     position: static;

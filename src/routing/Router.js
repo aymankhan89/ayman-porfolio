@@ -21,12 +21,12 @@ export default class Router {
       if (routes[path]) return routes[path].action()
     }
 
-    if (pathSplit[1] === 'caso') {
+    if (pathSplit[1] === 'case') {
       if (data[pathSplit[2]]) {
         if (this.push) {
           history.pushState({}, '', path)
         }
-        return routes['/caso/:id'].action()
+        return routes['/case/:id'].action()
       }
     }
 
