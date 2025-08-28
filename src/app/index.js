@@ -2,7 +2,7 @@ import Router from '../routing/Router'
 import NormalizeWheel from 'normalize-wheel'
 import each from 'lodash/each'
 
-import preloaderView from '../views/partials/Preloader'
+// import preloaderView from '../views/partials/Preloader'
 import navigationView from '../views/partials/Navigation'
 import loadPageView from '../views/partials/LoadPage'
 import adCookiesView from '../views/partials/AdCookies'
@@ -24,6 +24,7 @@ import AdCookies from './components/AdCookies'
 import Home from './pages/Home'
 import About from './pages/About'
 import Case from './pages/Case'
+import PreloaderView from './components/PreloaderView'
 
 class App {
   constructor() {
@@ -66,7 +67,7 @@ class App {
 
   async createPartials() {
     this.partials = {
-      preloader: preloaderView,
+      preloader: PreloaderView,
       navigation: navigationView,
       loadpage: loadPageView,
       adcookies: adCookiesView

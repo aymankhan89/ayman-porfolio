@@ -40,7 +40,7 @@ export default class HomeView {
               <div class="header__contact__wrapper">
                 <ul class="header__networks">
                   <li class="header__network">
-                    <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
+                    <a class="word__link" href="https://www.linkedin.com/in/syed-mustafa-ali-b96a46269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
                   </li>
                 </ul>
                 <div class="header__mail">
@@ -223,7 +223,7 @@ export default class HomeView {
             <div class="footer__contact__networks">
               <ul class="footer__contact__items">
                 <li class="footer__network">
-                  <a class="word__link" href="https://www.linkedin.com/in/mustafa-designer/" target="_blank">LinkedIn</a>
+                  <a class="word__link" href="https://www.linkedin.com/in/syed-mustafa-ali-b96a46269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
                 </li>
                 <li class="footer__network">
                   <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
