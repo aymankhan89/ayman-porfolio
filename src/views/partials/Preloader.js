@@ -6,7 +6,7 @@ const preloaderView = () => {
       </div>
       <div class="preloader__line"></div>
       <div class="preloader__info">
-        <div class="preloader__info__text preText">1 año de experiencia</div>
+        <div class="preloader__info__text preText">3 years of experience</div>
       </div>
     </div>
   `

@@ -66,7 +66,7 @@ export default class Preloader extends EventEmitter {
       this.loadingBarElement.style.transform = `scaleX(${progressRatio})`
       this.preloaderTextElement.innerHTML = Math.round(progressRatio * 100)
       this.preloaderInfoElement.innerHTML = `${Math.round(
-        progressRatio * 8
+        progressRatio * 3
       )} years of experience`
     }
 
