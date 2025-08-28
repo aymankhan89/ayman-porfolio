@@ -215,7 +215,7 @@ export default class HomeView {
                 </h2>
                 <a
                   class="footer__contact__label word__link title__inner"
-                  href="mailto:mustafa.designer@gmail.com"
+                  href="mailto:alisyed17012@gmail.com"
                   >Contact_me</a
                 >
               </div>

@@ -1,7 +1,7 @@
 import abstractImg from '../../assets/images/home/abstract-figure.svg'
 // import portraitVerImg from '../../assets/images/about/cristian-saenz-portrait-lost.jpg'
 // import portraitHorImg from '../../assets/images/about/cristian-saenz-portrait-hor.jpg'
-import portraitVerImg from '../../assets/images/about/mustafa.jpg'
+import portraitVerImg from '../../assets/images/about/mustafa-about.jpg'
 import portraitHorImg from '../../assets/images/about/mustafa.jpg'
 
 export default class AboutView {
@@ -89,75 +89,46 @@ export default class AboutView {
               </div>
             </section>
             <section class="section__experience">
-              <div class="section__experience__wrapper">
-                <h2 class="section__experience__title title__inner">
-                  Experience
-                </h2>
-                <div class="section__experience__companies">
-                  <div class="section__line"></div>
-                  <div class="experience__company">
-                    <div class="company__info">
-                      <h4 class="company__name paragraph__inner">
-                        Emirates Digital Solutions
-                      </h4>
-                      <div class="company__positions paragraph__inner">
-                        Senior UI/UX Designer / Design Systems
-                      </div>
-                    </div>
-                    <div class="company__duration">
-                      <div class="duration__number title__inner">03</div>
-                      <div class="duration__year title__inner">Years</div>
-                    </div>
-                  </div>
-                  <div class="section__line"></div>
-                  <div class="experience__company">
-                    <div class="company__info">
-                      <h4 class="company__name paragraph__inner">
-                        FinTech Innovations UAE
-                      </h4>
-                      <div class="company__positions paragraph__inner">
-                        UI/UX Designer / Product Design
-                      </div>
-                    </div>
-                    <div class="company__duration">
-                      <div class="duration__number title__inner">02</div>
-                      <div class="duration__year title__inner">Years</div>
-                    </div>
-                  </div>
-                  <div class="section__line"></div>
-                  <div class="experience__company">
-                    <div class="company__info">
-                      <h4 class="company__name paragraph__inner">
-                        Digital Health Platforms
-                      </h4>
-                      <div class="company__positions paragraph__inner">
-                        UX Researcher / Mobile App Design
-                      </div>
-                    </div>
-                    <div class="company__duration">
-                      <div class="duration__number title__inner">02</div>
-                      <div class="duration__year title__inner">Years</div>
-                    </div>
-                  </div>
-                  <div class="section__line"></div>
-                  <div class="experience__company">
-                    <div class="company__info">
-                      <h4 class="company__name paragraph__inner">
-                        Creative Design Agency
-                      </h4>
-                      <div class="company__positions paragraph__inner">
-                        Junior UI Designer / Brand Design
-                      </div>
-                    </div>
-                    <div class="company__duration">
-                      <div class="duration__number title__inner">01</div>
-                      <div class="duration__year title__inner">Year</div>
-                    </div>
-                  </div>
-                  <div class="section__line"></div>
-                </div>
-              </div>
-            </section>
+  <div class="section__experience__wrapper">
+    <h2 class="section__experience__title title__inner">
+      Experience
+    </h2>
+    <div class="section__experience__companies">
+      <div class="section__line"></div>
+      <div class="experience__company">
+        <div class="company__info">
+          <h4 class="company__name paragraph__inner">
+            ProficientNow
+          </h4>
+          <div class="company__positions paragraph__inner">
+            Senior UI/UX Designer / Design Systems
+          </div>
+        </div>
+        <div class="company__duration">
+          <div class="duration__number title__inner">02</div>
+          <div class="duration__year title__inner">Years</div>
+        </div>
+      </div>
+      <div class="section__line"></div>
+      <div class="experience__company">
+        <div class="company__info">
+          <h4 class="company__name paragraph__inner">
+            Websleak
+          </h4>
+          <div class="company__positions paragraph__inner">
+            UI/UX Designer / Product Design
+          </div>
+        </div>
+        <div class="company__duration">
+          <div class="duration__number title__inner">01</div>
+          <div class="duration__year title__inner">Year</div>
+        </div>
+      </div>
+      <div class="section__line"></div>
+    </div>
+  </div>
+</section>
+
             <section class="section__photo">
               <div class="section__photo__wrapper">
                 <figure class="section__photo__media">
