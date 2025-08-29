@@ -14,44 +14,44 @@ import health3 from '../assets/images/cases/zinetikan/zinetikan-3.jpg'
 import health4 from '../assets/images/cases/zinetikan/zinetikan-4.jpg'
 
 const cases = {
-  'ecommerce-app': {
+  'react-ecommerce': {
     id: 0,
-    title: 'E-Commerce Mobile App',
-    subtitle: 'Shopping Application',
-    text: 'This mobile application was designed to provide a seamless shopping experience for users. The project focused on creating an intuitive user interface with smooth navigation and engaging micro-interactions. The design emphasizes visual hierarchy, product discovery, and conversion optimization. Through extensive user research and usability testing, we created a design system that balances aesthetics with functionality, resulting in improved user engagement and sales conversion rates.',
+    title: 'React E-Commerce Platform',
+    subtitle: 'Modern Shopping Application',
+    text: 'A full-featured e-commerce web application built with React and modern frontend technologies. The project features responsive design, real-time cart management, payment integration, and optimized performance. Built with component-based architecture, the application provides seamless user experience across all devices. Implementation includes Redux for state management, React Router for navigation, and custom hooks for business logic.',
     year: '2024',
-    roles: ['UI Design', 'UX Research', 'Prototyping'],
-    techs: ['Figma', 'Principle', 'UserTesting', 'Maze'],
+    roles: ['Frontend Development', 'React Development', 'UI Implementation'],
+    techs: ['React', 'Redux', 'JavaScript', 'CSS3', 'Webpack'],
     images: [ecommerce1, ecommerce2, ecommerce3, ecommerce4],
     ids: [6, 7, 8, 9],
-    url: 'ecommerce-app',
-    visit: 'https://www.mustafa-ecommerce-case.com/'
+    url: 'react-ecommerce',
+    visit: 'https://www.ayman-react-ecommerce.com/'
   },
-  'fintech-dashboard': {
+  'vue-dashboard': {
     id: 1,
-    title: 'FinTech Dashboard',
-    subtitle: 'Financial Technology Platform',
-    text: 'A comprehensive dashboard design for a financial technology platform that helps users manage their investments and track market trends. The design challenge was to present complex financial data in an accessible and visually appealing way. Through card-sorting exercises and user interviews, we developed an information architecture that prioritizes the most important metrics while maintaining easy access to detailed analytics. The result is a clean, professional interface that builds trust and confidence.',
-    year: '2023',
-    roles: ['UI Design', 'UX Research', 'Information Architecture'],
-    techs: ['Figma', 'Sketch', 'InVision', 'Hotjar'],
+    title: 'Vue.js Admin Dashboard',
+    subtitle: 'Enterprise Management Platform',
+    text: 'A comprehensive admin dashboard built with Vue.js for managing business operations and analytics. Features include real-time data visualization, user management, reporting tools, and responsive design. The application utilizes Vue 3 Composition API, Pinia for state management, and modern UI components. Built with performance optimization and scalability in mind, supporting large datasets and complex user interactions.',
+    year: '2024',
+    roles: ['Frontend Development', 'Vue.js Development', 'Dashboard Design'],
+    techs: ['Vue.js', 'Pinia', 'TypeScript', 'Chart.js', 'Vite'],
     images: [fintech1, fintech2, fintech3, fintech4],
     ids: [10, 11, 12, 13],
-    url: 'fintech-dashboard',
-    visit: 'https://www.mustafa-fintech-case.com/'
+    url: 'vue-dashboard',
+    visit: 'https://www.ayman-vue-dashboard.com/'
   },
-  'health-app': {
+  'nextjs-portfolio': {
     id: 2,
-    title: 'Healthcare Mobile App',
-    subtitle: 'Digital Health Platform',
-    text: 'This healthcare application was designed to help users track their wellness journey and connect with healthcare professionals. The design process involved extensive research into accessibility standards and healthcare UX best practices. We conducted user interviews with both patients and healthcare providers to understand their needs and pain points. The final design features clear navigation, accessible color schemes, and intuitive data visualization that makes health tracking simple and motivating for users of all ages.',
+    title: 'Next.js Portfolio Website',
+    subtitle: 'Personal Portfolio Platform',
+    text: 'A modern portfolio website built with Next.js featuring server-side rendering, optimized performance, and dynamic content management. The project showcases advanced Next.js features including API routes, image optimization, and static site generation. Built with responsive design principles and modern web standards, the site delivers excellent performance scores and SEO optimization.',
     year: '2023',
-    roles: ['UI Design', 'UX Research', 'Accessibility Design'],
-    techs: ['Figma', 'Adobe XD', 'Lookback', 'Optimal Workshop'],
+    roles: ['Frontend Development', 'Next.js Development', 'Performance Optimization'],
+    techs: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     images: [health1, health2, health3, health4],
     ids: [14, 15, 16, 17],
-    url: 'health-app',
-    visit: null
+    url: 'nextjs-portfolio',
+    visit: 'https://www.ayman-nextjs-portfolio.com/'
   }
 }
 

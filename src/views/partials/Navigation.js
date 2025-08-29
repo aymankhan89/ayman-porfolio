@@ -2,7 +2,7 @@ const navigationView = () => {
   const view = `
     <div class="navigation__wrapper">
       <a class="navigation__logo nav__link word__link" href="/"
-        >Syed Mustafa</a
+        >Ayman Khan</a
       >
       <ul class="navigation__list">
         <li class="navigation__list__item">
